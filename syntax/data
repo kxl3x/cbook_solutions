@@ -1,0 +1,38 @@
+
+
+TODO: fix double comment unraise on newline exception
+TODO: fix brace unraise on newline exception
+TODO: fix \n, \\, cases
+TODO: single slash breaks the program, reset double quote state on default
+TODO: lone ] side brace, not detected by err (else if) case
+
+#include <stdio.h>
+#include <stdlib.h>
+
+this is a random sentence.
+brackets = [item, another_item!, item1!]
+quotes = "this is a quote"
+singles = 'this is a single quote'
+
+tuple = (this, next is the share;))
+
+example_str = "only 77 miles left"
+
+c = \"	// escaped double quote
+d = \'	// escaped single quote
+
+status = "" // empty string
+
+yes = "'this is a single quote nested'"
+
+// this is a single comment 
+// try: cat data
+
+/* this is a ugly gnu comment
+ * that has multiple stars preceding
+ * the multi line comment
+*/
+
+/* this is a multi lined comment
+	that spans multiple lines */
+
